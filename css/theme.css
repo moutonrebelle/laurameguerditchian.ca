@@ -1,0 +1,10 @@
+:root {
+
+--color-primary: #000000;
+--color-primary-light: #ffffff;
+--color-secondary-light: #efefef;
+--color-accent: #cd0328;
+--color-nude: #fdf4e5;
+
+--font-primary: "open-sans", sans-serif;
+}

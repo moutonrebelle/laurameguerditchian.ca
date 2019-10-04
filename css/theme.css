@@ -1,10 +1,29 @@
 :root {
 
---color-primary: #000000;
+--color-primary-dark: #000000;
 --color-primary-light: #ffffff;
 --color-secondary-light: #efefef;
 --color-accent: #cd0328;
---color-nude: #fdf4e5;
+--color-accent-nude: #ffeae9;
 
 --font-primary: "open-sans", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary)
+}
+
+/* @utility Apply a light background colour to an element */
+.section-light {
+  background-color: var(--color-primary-light);
+}
+
+/* @utility Apply a dark background colour to an element */
+.section-dark {
+  background-color: var(--color-primary-dark);
+}
+
+/* @utility Apply a primary colour background colour to an element */
+.section-accent {
+  background-color: var(--color-accent);
 }

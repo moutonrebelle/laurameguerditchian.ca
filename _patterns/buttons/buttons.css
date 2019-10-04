@@ -1,0 +1,9 @@
+.btn {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  color: var(--color-primary-light);
+}
+.btn:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}

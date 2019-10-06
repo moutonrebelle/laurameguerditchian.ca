@@ -2,15 +2,44 @@
 
 --color-primary-dark: #000000;
 --color-primary-light: #ffffff;
+--color-secondary-dark: #333333;
 --color-secondary-light: #efefef;
 --color-accent: #cd0328;
 --color-accent-nude: #ffeae9;
 
 --font-primary: "open-sans", sans-serif;
+--font-secondary: "open-sans", sans-serif;
 }
 
 html {
-  font-family: var(--font-primary)
+  font-family: var(--font-primary);
+  color: var(--color-primary-dark)
+}
+
+/* @utility Apply the secondary typeface */
+.font-secondary {
+ font-family: var(--font-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark);
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: var(--color-secondary-light);
+}
+
+dt {
+  font-weight: bold;
+}
+
+dl, ol, ul {
+  color: var(--color-primary-dark);
 }
 
 /* @utility Apply a light background colour to an element */
@@ -26,4 +55,28 @@ html {
 /* @utility Apply a primary colour background colour to an element */
 .section-accent {
   background-color: var(--color-accent);
+}
+
+blockquote {
+  color: var(--color-secondary)
+}
+
+q {
+  color: var(--color-secondary);
+}
+
+cite {
+  color: var(--color-secondary);
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
 }

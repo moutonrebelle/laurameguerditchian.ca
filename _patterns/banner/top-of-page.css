@@ -1,0 +1,8 @@
+.top-of-page {
+  background-image: url("/images/logo.svg");
+  background-size: cover;
+  background-position: center center;
+  height: 70vh;
+  width: 100%;
+  color: var(--color-primary-dark);
+}

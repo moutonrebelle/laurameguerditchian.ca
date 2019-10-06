@@ -1,0 +1,9 @@
+<div class="top-of-page center-content" style="background-image:url({{include.image}})">
+  <div class="w-1 island">
+  <h1><span class="block">{{include.heading}}</span></h1>
+  <p class="banner-info">{{include.text}}</p>
+{% if include.button_url %}
+  {% pattern buttons/basic url=include.button_url text=include.button_text %}
+{% endif %}
+  </div>
+</div>

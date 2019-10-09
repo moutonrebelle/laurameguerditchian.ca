@@ -1,9 +1,9 @@
-<div class="top-of-page center-content" style="background-image:url({{include.image}})">
-  <div class="w-1 island">
-  <h1><span class="block">{{include.heading}}</span></h1>
-  <p class="banner-info">{{include.text}}</p>
-{% if include.button_url %}
-  {% pattern buttons/basic url=include.button_url text=include.button_text %}
-{% endif %}
+<div class="banner-image">
+  <div class="description-text text-center island">
+    <h1 class="header">I'm Laura Meguerditchian</h1>
+    <p>Fuelled by caramel macchiatos and a passion for innovative design and communication. I moved from MS Paint and Crayolas to Adobe CC. I create visual concepts that inspire, inform and captivate consumers.</p>
+    {% if include.button_url %}
+      {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>

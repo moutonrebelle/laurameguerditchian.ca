@@ -1,0 +1,11 @@
+header img {
+  max-width: 150px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav svg {
+  color: var(--color-secondary-dark);
+}

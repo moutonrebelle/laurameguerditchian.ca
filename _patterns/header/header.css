@@ -1,9 +1,23 @@
+header {
+  border-bottom: 5px solid var(--color-accent-nude);
+}
+
 header img {
-  max-width: 150px;
+  max-width: 90px;
 }
 
 nav a {
   text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+  border-bottom: 3px solid var(--color-accent-nude)
+}
+
+nav a.active {
+  border-bottom: 3px solid var(--color-accent-nude)
 }
 
 nav svg {

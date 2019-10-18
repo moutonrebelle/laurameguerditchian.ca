@@ -1,6 +1,6 @@
 title: "Cards"
 description: |
-  Cards will be used on the home page to showcase work pieces and skills.
+  Cards will be used on the home page to showcase work pieces, skills, vision and self description.
 patterns:
   card-preview:
     padding: 2em

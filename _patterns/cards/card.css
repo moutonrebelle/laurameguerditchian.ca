@@ -42,6 +42,23 @@
   background-color: var(--color-accent-nude);
 }
 
+.features-card {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.portfolio img {
+  max-width: 100px;
+}
+
+.portfolio {
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 @media only screen and (min-width: 38em) {
 
 .card-image {

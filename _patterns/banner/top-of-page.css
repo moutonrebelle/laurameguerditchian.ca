@@ -1,5 +1,5 @@
 .hero-image {
-  height: 50%;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,4 +17,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--color-primary-dark);
+  background-color: rgba(255, 255, 255, 0.73);
+}
+
+@media only screen and (max-width: 652px) {
+
+  .hero-banner {
+    width: auto;
+    height: 400px;
   }
+
+  .hero-image {
+    font-size: 15px;
+  }
+}

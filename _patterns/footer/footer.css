@@ -15,3 +15,17 @@
 .footer a:hover {
   color: var(--color-primary-dark);
 }
+
+.icon {
+  position: relative;
+   top: 0;
+   transition: top ease 0.5s;
+}
+
+.icon:hover {
+  top: -10px;
+}
+
+.social-media a {
+  border-bottom: 0em;
+}

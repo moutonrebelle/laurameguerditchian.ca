@@ -18,16 +18,9 @@
   transition: box-shadow .3s;
 }
 
-.card-image-left:hover {
+.card-preview:hover {
   box-shadow: 0px 10px 24px -8px rgba(0,0,0,0.75);
-}
-
-.card-image-right:hover {
-  box-shadow: 0px 10px 24px -8px rgba(0,0,0,0.75);
-}
-
-.card-preview {
-  box-shadow: 0px 10px 24px -8px rgba(0,0,0,0.75);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .card-about {
@@ -35,7 +28,7 @@
 }
 
 .card-preview {
-  background-color: var(--color-secondary-light);
+  background-color: var(--color-accent-nude)
 }
 
 .objective {
@@ -47,16 +40,12 @@
   margin: 0 auto;
 }
 
-.portfolio img {
-  max-width: 100px;
+.grey {
+  color: var(--color-secondary-dark);
 }
 
-.portfolio {
-  height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.card-title-portfolio-piece {
+  border-bottom: 2px solid var(--color-accent-nude);
 }
 
 @media only screen and (min-width: 38em) {

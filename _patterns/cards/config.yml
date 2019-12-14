@@ -1,6 +1,39 @@
 title: "Cards"
 description: |
   Cards will be used on the home page to showcase work pieces, skills, vision and self description.
+
 patterns:
+  card-about:
+      - name: text
+        type: string
+    description: |
+      The about card is going to be used on the about page to describe me as a graphic designer
+
   card-preview:
-    padding: 2em
+      - name: text
+        type: string
+        example: "FGM Campaign"
+      - name: url
+        type: url
+        example: "/female-genital-mutilation/"
+    description: |
+      Card preview should be used to give a preview of the work piece.
+
+  card-title-portfolio-piece:
+      - name: text
+        type: string
+        example: "FGM Campaign.[Type of project - Date]"
+    description: |
+      The card title portfolio piece is going to be used at the top of the work presentation.
+
+  card-work-pieces:
+      - name: text
+        type: string
+    description: |
+      The card work pieces is going to be the one used to show images and descriptions.
+
+  features-card:
+      - name: text
+        type: string
+    description: |
+      This card is going to be used under the about section to highlight features and skills.

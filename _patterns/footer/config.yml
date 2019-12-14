@@ -1,7 +1,3 @@
 title: "Footer"
 description: |
   This footer will be used at the end of all pages.
-
-patterns:
-  footer:
-    height: 150px

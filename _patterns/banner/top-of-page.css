@@ -28,6 +28,10 @@
   }
 
   .hero-image {
+    overflow: hidden;
+  }
+
+  .hero-image {
     font-size: 15px;
   }
 }

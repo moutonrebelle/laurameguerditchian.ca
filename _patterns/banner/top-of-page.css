@@ -23,11 +23,12 @@
 @media only screen and (max-width: 653px) {
 
   .hero-banner {
-    width: auto;
-    height: 400px;
+    width: auto 0;
+    height: 40vh;
   }
 
   .hero-image {
     font-size: 15px;
   }
+
 }
